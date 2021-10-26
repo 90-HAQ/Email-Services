@@ -96,7 +96,8 @@
             header("content-type: application/json");
 
             // will return value in json format only
-            $response = json_encode(['response'=> ['status' => $code, 'result' => $data]]);
+            //$response = json_encode(['response'=> ['status' => $code, 'result' => $data]]);
+            $response = json_encode(['status' => $code, 'result' => $data]);
             echo $response; 
             exit;        
         }

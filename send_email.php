@@ -34,6 +34,10 @@ class Send_Email_To_Customer
         }
     }
 
+    public function pass_send_email_to_db()
+    {
+    }
+
 }
 
 ?>

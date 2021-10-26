@@ -51,7 +51,7 @@ drop table if exists card;
 create table card(
 crd_id int auto_increment not null,
 crd_merchent_id int,
-crd_card_No int(11), /* your credit card number	*/
+crd_card_No bigint(11), /* your credit card number	*/
 crd_credit float(7,2), /* example (100.00) */
 crd_cvc int (4), /*3 digits at back of credit card*/
 crd_valid_from date, /* your card validity */

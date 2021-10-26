@@ -21,6 +21,7 @@
 	define('INVALID_USER_PASS', 					109);
 	define('USER_NOT_ACTIVE', 						110);
 	define('USER_ALREADY_EXISTS', 					111);
+	define('CARD_NO_ALREADY_EXISTS', 					112);
 
 	define('SUCCESS_RESPONSE', 						200);
 
@@ -28,5 +29,6 @@
 
 	define('JWT_PROCESSING_ERROR',					300);
 	define('ATHORIZATION_HEADER_NOT_FOUND',			301);
-	define('ACCESS_TOKEN_ERRORS',					302);	
+	define('ACCESS_TOKEN_ERRORS',					302);
+	define('ACCESS_TOKEN_ERROR_DOES_NOT_EXIST',					303);	
 ?>
